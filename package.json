@@ -1,0 +1,21 @@
+{
+  "name": "cache-crawled-links-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wrangler build",
+    "deploy": "wrangler publish"
+  },
+  "author": "cowchimp",
+  "repository": "cowchimp/cache-crawled-links-worker",
+  "license": "0BSD",
+  "dependencies": {
+    "htmlparser2": "^3.10.1"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}

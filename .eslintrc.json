@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "TransformStream": "readonly",
+    "Promise": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-undef": "error",
+    "prefer-const": "error",
+    "prettier/prettier": "error"
+  }
+}
